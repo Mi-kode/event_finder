@@ -1,24 +1,35 @@
-# README
+# Event Finder
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple event management platform built with Ruby on Rails. Users can create and attend events, and administrators can manage their own events. The app includes email notifications and secure authentication.
 
-Things you may want to cover:
+## 📚 Table of Contents
 
-* Ruby version
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Models & Associations](#models--associations)
+- [Validations](#validations)
+- [Mailers](#mailers)
+- [Seeds](#seeds)
+- [Contributing](#contributing)
+- [License](#license)
 
-* System dependencies
+---
 
-* Configuration
+## ✨ Features
 
-* Database creation
+- User sign-up and login system
+- Event creation and participation
+- Event validations (duration, dates, prices, etc.)
+- Join events through a Stripe-like system (mocked)
+- Email notifications on user creation and attendance
+- Admin dashboard (for future extension)
 
-* Database initialization
+---
 
-* How to run the test suite
+## 🚀 Getting Started
 
-* Services (job queues, cache servers, search engines, etc.)
+### 1. Clone the repo
 
-* Deployment instructions
-
-* ...
+```bash
+git clone https://github.com/yourusername/event_finder.git
+cd event_finder
