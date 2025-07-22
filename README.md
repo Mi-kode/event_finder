@@ -31,5 +31,5 @@ A simple event management platform built with Ruby on Rails. Users can create an
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/event_finder.git
+git clone https://github.com/Mi-kode/event_finder.git
 cd event_finder
